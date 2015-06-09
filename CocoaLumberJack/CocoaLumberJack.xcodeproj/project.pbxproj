@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		00B480221B2762B90097D897 /* CocoaLumberJack.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480211B2762B90097D897 /* CocoaLumberJack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00B480511B2763120097D897 /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480391B2763120097D897 /* CLIColor.h */; };
+		00B480511B2763120097D897 /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480391B2763120097D897 /* CLIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B480521B2763120097D897 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4803A1B2763120097D897 /* CLIColor.m */; };
-		00B480531B2763120097D897 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803B1B2763120097D897 /* DDAbstractDatabaseLogger.h */; };
+		00B480531B2763120097D897 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803B1B2763120097D897 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B480541B2763120097D897 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4803C1B2763120097D897 /* DDAbstractDatabaseLogger.m */; };
-		00B480551B2763120097D897 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803D1B2763120097D897 /* DDASLLogCapture.h */; };
+		00B480551B2763120097D897 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803D1B2763120097D897 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B480561B2763120097D897 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4803E1B2763120097D897 /* DDASLLogCapture.m */; };
-		00B480571B2763120097D897 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803F1B2763120097D897 /* DDASLLogger.h */; };
+		00B480571B2763120097D897 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803F1B2763120097D897 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B480581B2763120097D897 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B480401B2763120097D897 /* DDASLLogger.m */; };
-		00B480591B2763120097D897 /* DDAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480411B2763120097D897 /* DDAssert.h */; };
-		00B4805A1B2763120097D897 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480421B2763120097D897 /* DDFileLogger.h */; };
+		00B480591B2763120097D897 /* DDAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480411B2763120097D897 /* DDAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00B4805A1B2763120097D897 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480421B2763120097D897 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B4805B1B2763120097D897 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B480431B2763120097D897 /* DDFileLogger.m */; };
-		00B4805C1B2763120097D897 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480441B2763120097D897 /* DDLog.h */; };
+		00B4805C1B2763120097D897 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480441B2763120097D897 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B4805D1B2763120097D897 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B480451B2763120097D897 /* DDLog.m */; };
-		00B4805E1B2763120097D897 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480461B2763120097D897 /* DDLog+LOGV.h */; };
-		00B4805F1B2763120097D897 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480471B2763120097D897 /* DDTTYLogger.h */; };
+		00B4805E1B2763120097D897 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480461B2763120097D897 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00B4805F1B2763120097D897 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480471B2763120097D897 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B480601B2763120097D897 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B480481B2763120097D897 /* DDTTYLogger.m */; };
-		00B480611B2763120097D897 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804A1B2763120097D897 /* DDContextFilterLogFormatter.h */; };
+		00B480611B2763120097D897 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804A1B2763120097D897 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B480621B2763120097D897 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4804B1B2763120097D897 /* DDContextFilterLogFormatter.m */; };
-		00B480631B2763120097D897 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804C1B2763120097D897 /* DDDispatchQueueLogFormatter.h */; };
+		00B480631B2763120097D897 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804C1B2763120097D897 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B480641B2763120097D897 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4804D1B2763120097D897 /* DDDispatchQueueLogFormatter.m */; };
-		00B480651B2763120097D897 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804E1B2763120097D897 /* DDMultiFormatter.h */; };
+		00B480651B2763120097D897 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804E1B2763120097D897 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B480661B2763120097D897 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4804F1B2763120097D897 /* DDMultiFormatter.m */; };
 		00B480671B2763120097D897 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00B480501B2763120097D897 /* README.txt */; };
 		00B480691B27638D0097D897 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B480681B27638D0097D897 /* UIKit.framework */; };
@@ -39,8 +39,6 @@
 		00B4801C1B2762B90097D897 /* CocoaLumberJack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberJack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B480201B2762B90097D897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00B480211B2762B90097D897 /* CocoaLumberJack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaLumberJack.h; sourceTree = "<group>"; };
-		00B4802D1B2762B90097D897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00B4802E1B2762B90097D897 /* CocoaLumberJackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaLumberJackTests.m; sourceTree = "<group>"; };
 		00B480391B2763120097D897 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
 		00B4803A1B2763120097D897 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
 		00B4803B1B2763120097D897 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = ../../Lumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
@@ -84,11 +82,10 @@
 		00B480121B2762B90097D897 = {
 			isa = PBXGroup;
 			children = (
+				00B4801E1B2762B90097D897 /* CocoaLumberJack */,
+				00B4801D1B2762B90097D897 /* Products */,
 				00B4806A1B2763920097D897 /* Foundation.framework */,
 				00B480681B27638D0097D897 /* UIKit.framework */,
-				00B4801E1B2762B90097D897 /* CocoaLumberJack */,
-				00B4802B1B2762B90097D897 /* CocoaLumberJackTests */,
-				00B4801D1B2762B90097D897 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,23 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				00B480201B2762B90097D897 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		00B4802B1B2762B90097D897 /* CocoaLumberJackTests */ = {
-			isa = PBXGroup;
-			children = (
-				00B4802E1B2762B90097D897 /* CocoaLumberJackTests.m */,
-				00B4802C1B2762B90097D897 /* Supporting Files */,
-			);
-			path = CocoaLumberJackTests;
-			sourceTree = "<group>";
-		};
-		00B4802C1B2762B90097D897 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00B4802D1B2762B90097D897 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
