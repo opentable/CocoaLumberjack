@@ -24,3 +24,7 @@ FOUNDATION_EXPORT const unsigned char CocoaLumberJackVersionString[];
 #import <CocoaLumberJack/DDLog.h>
 #import <CocoaLumberJack/DDLog+LOGV.h>
 #import <CocoaLumberJack/DDTTYLogger.h>
+#import <CocoaLumberJack/CLIColor.h>
+#import <CocoaLumberJack/DDContextFilterLogFormatter.h>
+#import <CocoaLumberJack/DDDispatchQueueLogFormatter.h>
+#import <CocoaLumberJack/DDMultiFormatter.h>
