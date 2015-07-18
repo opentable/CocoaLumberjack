@@ -6,7 +6,7 @@
 #import <mach/host_info.h>
 #import <libkern/OSAtomic.h>
 #import <Availability.h>
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IPHONE && !TARGET_OS_WATCH
     #import <UIKit/UIDevice.h>
 #endif
 
@@ -907,13 +907,16 @@ static char *dd_str_copy(const char *str)
 //    dispatch_get_current_queue(void);
 //      __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_6,__MAC_10_9,__IPHONE_4_0,__IPHONE_6_0)
 
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IPHONE && !TARGET_OS_WATCH
 
   // Compiling for iOS
 
     #define USE_DISPATCH_CURRENT_QUEUE_LABEL ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
     #define USE_DISPATCH_GET_CURRENT_QUEUE ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.1)
 
+#elif TARGET_OS_WATCH
+	#define USE_DISPATCH_CURRENT_QUEUE_LABEL YES
+	#define USE_DISPATCH_GET_CURRENT_QUEUE YES
 #else
 
   // Compiling for Mac OS X

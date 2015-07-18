@@ -33,6 +33,29 @@
 		00B480671B2763120097D897 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00B480501B2763120097D897 /* README.txt */; };
 		00B480691B27638D0097D897 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B480681B27638D0097D897 /* UIKit.framework */; };
 		00B4806B1B2763920097D897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B4806A1B2763920097D897 /* Foundation.framework */; };
+		00BB4DE71B5AE7440039D377 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4803A1B2763120097D897 /* CLIColor.m */; };
+		00BB4DE81B5AE7440039D377 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4803C1B2763120097D897 /* DDAbstractDatabaseLogger.m */; };
+		00BB4DE91B5AE7440039D377 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4803E1B2763120097D897 /* DDASLLogCapture.m */; };
+		00BB4DEA1B5AE7440039D377 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B480401B2763120097D897 /* DDASLLogger.m */; };
+		00BB4DEB1B5AE7440039D377 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B480431B2763120097D897 /* DDFileLogger.m */; };
+		00BB4DEC1B5AE7440039D377 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B480451B2763120097D897 /* DDLog.m */; };
+		00BB4DED1B5AE7440039D377 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B480481B2763120097D897 /* DDTTYLogger.m */; };
+		00BB4DEE1B5AE7440039D377 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4804B1B2763120097D897 /* DDContextFilterLogFormatter.m */; };
+		00BB4DEF1B5AE7440039D377 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4804D1B2763120097D897 /* DDDispatchQueueLogFormatter.m */; };
+		00BB4DF01B5AE7440039D377 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4804F1B2763120097D897 /* DDMultiFormatter.m */; };
+		00BB4DF11B5AE75A0039D377 /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480391B2763120097D897 /* CLIColor.h */; };
+		00BB4DF21B5AE75A0039D377 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803B1B2763120097D897 /* DDAbstractDatabaseLogger.h */; };
+		00BB4DF31B5AE75A0039D377 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803D1B2763120097D897 /* DDASLLogCapture.h */; };
+		00BB4DF41B5AE75A0039D377 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803F1B2763120097D897 /* DDASLLogger.h */; };
+		00BB4DF51B5AE75A0039D377 /* DDAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480411B2763120097D897 /* DDAssert.h */; };
+		00BB4DF61B5AE75A0039D377 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480421B2763120097D897 /* DDFileLogger.h */; };
+		00BB4DF71B5AE75A0039D377 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480441B2763120097D897 /* DDLog.h */; };
+		00BB4DF81B5AE75A0039D377 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480461B2763120097D897 /* DDLog+LOGV.h */; };
+		00BB4DF91B5AE75A0039D377 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480471B2763120097D897 /* DDTTYLogger.h */; };
+		00BB4DFA1B5AE75A0039D377 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804A1B2763120097D897 /* DDContextFilterLogFormatter.h */; };
+		00BB4DFB1B5AE75A0039D377 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804C1B2763120097D897 /* DDDispatchQueueLogFormatter.h */; };
+		00BB4DFC1B5AE75A0039D377 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804E1B2763120097D897 /* DDMultiFormatter.h */; };
+		00BB4DFD1B5AE75A0039D377 /* CocoaLumberJack.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480211B2762B90097D897 /* CocoaLumberJack.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +87,9 @@
 		00B480501B2763120097D897 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		00B480681B27638D0097D897 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		00B4806A1B2763920097D897 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00BB4DDF1B5AE7320039D377 /* CocoaLumberJack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberJack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00BB4DE11B5AE7320039D377 /* CocoaLumberJackWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaLumberJackWatch.h; sourceTree = "<group>"; };
+		00BB4DE31B5AE7320039D377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +102,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		00BB4DDB1B5AE7320039D377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				00B4801E1B2762B90097D897 /* CocoaLumberJack */,
+				00BB4DE01B5AE7320039D377 /* CocoaLumberJackWatch */,
 				00B4801D1B2762B90097D897 /* Products */,
 				00B4806A1B2763920097D897 /* Foundation.framework */,
 				00B480681B27638D0097D897 /* UIKit.framework */,
@@ -93,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				00B4801C1B2762B90097D897 /* CocoaLumberJack.framework */,
+				00BB4DDF1B5AE7320039D377 /* CocoaLumberJack.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +190,15 @@
 			path = ../../Lumberjack/Extensions;
 			sourceTree = "<group>";
 		};
+		00BB4DE01B5AE7320039D377 /* CocoaLumberJackWatch */ = {
+			isa = PBXGroup;
+			children = (
+				00BB4DE11B5AE7320039D377 /* CocoaLumberJackWatch.h */,
+				00BB4DE31B5AE7320039D377 /* Info.plist */,
+			);
+			path = CocoaLumberJackWatch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -175,6 +219,26 @@
 				00B4805A1B2763120097D897 /* DDFileLogger.h in Headers */,
 				00B4805C1B2763120097D897 /* DDLog.h in Headers */,
 				00B4805E1B2763120097D897 /* DDLog+LOGV.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00BB4DDC1B5AE7320039D377 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BB4DF11B5AE75A0039D377 /* CLIColor.h in Headers */,
+				00BB4DF21B5AE75A0039D377 /* DDAbstractDatabaseLogger.h in Headers */,
+				00BB4DF31B5AE75A0039D377 /* DDASLLogCapture.h in Headers */,
+				00BB4DF41B5AE75A0039D377 /* DDASLLogger.h in Headers */,
+				00BB4DF51B5AE75A0039D377 /* DDAssert.h in Headers */,
+				00BB4DF61B5AE75A0039D377 /* DDFileLogger.h in Headers */,
+				00BB4DF71B5AE75A0039D377 /* DDLog.h in Headers */,
+				00BB4DF81B5AE75A0039D377 /* DDLog+LOGV.h in Headers */,
+				00BB4DF91B5AE75A0039D377 /* DDTTYLogger.h in Headers */,
+				00BB4DFA1B5AE75A0039D377 /* DDContextFilterLogFormatter.h in Headers */,
+				00BB4DFB1B5AE75A0039D377 /* DDDispatchQueueLogFormatter.h in Headers */,
+				00BB4DFC1B5AE75A0039D377 /* DDMultiFormatter.h in Headers */,
+				00BB4DFD1B5AE75A0039D377 /* CocoaLumberJack.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +263,24 @@
 			productReference = 00B4801C1B2762B90097D897 /* CocoaLumberJack.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		00BB4DDE1B5AE7320039D377 /* CocoaLumberJackWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00BB4DE61B5AE7320039D377 /* Build configuration list for PBXNativeTarget "CocoaLumberJackWatch" */;
+			buildPhases = (
+				00BB4DDA1B5AE7320039D377 /* Sources */,
+				00BB4DDB1B5AE7320039D377 /* Frameworks */,
+				00BB4DDC1B5AE7320039D377 /* Headers */,
+				00BB4DDD1B5AE7320039D377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberJackWatch;
+			productName = CocoaLumberJackWatch;
+			productReference = 00BB4DDF1B5AE7320039D377 /* CocoaLumberJack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +292,9 @@
 				TargetAttributes = {
 					00B4801B1B2762B90097D897 = {
 						CreatedOnToolsVersion = 6.3.2;
+					};
+					00BB4DDE1B5AE7320039D377 = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
@@ -226,6 +311,7 @@
 			projectRoot = "";
 			targets = (
 				00B4801B1B2762B90097D897 /* CocoaLumberJack */,
+				00BB4DDE1B5AE7320039D377 /* CocoaLumberJackWatch */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +322,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				00B480671B2763120097D897 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00BB4DDD1B5AE7320039D377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +349,23 @@
 				00B480521B2763120097D897 /* CLIColor.m in Sources */,
 				00B480601B2763120097D897 /* DDTTYLogger.m in Sources */,
 				00B4805B1B2763120097D897 /* DDFileLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00BB4DDA1B5AE7320039D377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BB4DE71B5AE7440039D377 /* CLIColor.m in Sources */,
+				00BB4DE81B5AE7440039D377 /* DDAbstractDatabaseLogger.m in Sources */,
+				00BB4DE91B5AE7440039D377 /* DDASLLogCapture.m in Sources */,
+				00BB4DEA1B5AE7440039D377 /* DDASLLogger.m in Sources */,
+				00BB4DEB1B5AE7440039D377 /* DDFileLogger.m in Sources */,
+				00BB4DEC1B5AE7440039D377 /* DDLog.m in Sources */,
+				00BB4DED1B5AE7440039D377 /* DDTTYLogger.m in Sources */,
+				00BB4DEE1B5AE7440039D377 /* DDContextFilterLogFormatter.m in Sources */,
+				00BB4DEF1B5AE7440039D377 /* DDDispatchQueueLogFormatter.m in Sources */,
+				00BB4DF01B5AE7440039D377 /* DDMultiFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +490,46 @@
 			};
 			name = Release;
 		};
+		00BB4DE41B5AE7320039D377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = CocoaLumberJackWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opentable.CocoaLumberJackWatch;
+				PRODUCT_NAME = CocoaLumberJack;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		00BB4DE51B5AE7320039D377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CocoaLumberJackWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opentable.CocoaLumberJackWatch;
+				PRODUCT_NAME = CocoaLumberJack;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -400,6 +550,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		00BB4DE61B5AE7320039D377 /* Build configuration list for PBXNativeTarget "CocoaLumberJackWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00BB4DE41B5AE7320039D377 /* Debug */,
+				00BB4DE51B5AE7320039D377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
