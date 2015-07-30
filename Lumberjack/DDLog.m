@@ -3,7 +3,9 @@
 #import <pthread.h>
 #import <objc/runtime.h>
 #import <mach/mach_host.h>
+#if !TARGET_OS_WATCH
 #import <mach/host_info.h>
+#endif
 #import <libkern/OSAtomic.h>
 #import <Availability.h>
 #if TARGET_OS_IPHONE && !TARGET_OS_WATCH
@@ -134,7 +136,7 @@ static unsigned int numProcessors;
         
         // Figure out how many processors are available.
         // This may be used later for an optimization on uniprocessor machines.
-        
+#if !TARGET_OS_WATCH
         host_basic_info_data_t hostInfo;
         mach_msg_type_number_t infoCount;
         
@@ -145,7 +147,11 @@ static unsigned int numProcessors;
         unsigned int one    = (unsigned int)(1);
         
         numProcessors = MAX(result, one);
-        
+#else
+		numProcessors = (unsigned int)(1);
+#endif
+		
+		
         NSLogDebug(@"DDLog: numProcessors = %u", numProcessors);
         
         
