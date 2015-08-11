@@ -43,19 +43,19 @@
 		00BB4DEE1B5AE7440039D377 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4804B1B2763120097D897 /* DDContextFilterLogFormatter.m */; };
 		00BB4DEF1B5AE7440039D377 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4804D1B2763120097D897 /* DDDispatchQueueLogFormatter.m */; };
 		00BB4DF01B5AE7440039D377 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B4804F1B2763120097D897 /* DDMultiFormatter.m */; };
-		00BB4DF11B5AE75A0039D377 /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480391B2763120097D897 /* CLIColor.h */; };
-		00BB4DF21B5AE75A0039D377 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803B1B2763120097D897 /* DDAbstractDatabaseLogger.h */; };
-		00BB4DF31B5AE75A0039D377 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803D1B2763120097D897 /* DDASLLogCapture.h */; };
-		00BB4DF41B5AE75A0039D377 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803F1B2763120097D897 /* DDASLLogger.h */; };
-		00BB4DF51B5AE75A0039D377 /* DDAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480411B2763120097D897 /* DDAssert.h */; };
-		00BB4DF61B5AE75A0039D377 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480421B2763120097D897 /* DDFileLogger.h */; };
-		00BB4DF71B5AE75A0039D377 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480441B2763120097D897 /* DDLog.h */; };
-		00BB4DF81B5AE75A0039D377 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480461B2763120097D897 /* DDLog+LOGV.h */; };
-		00BB4DF91B5AE75A0039D377 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480471B2763120097D897 /* DDTTYLogger.h */; };
-		00BB4DFA1B5AE75A0039D377 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804A1B2763120097D897 /* DDContextFilterLogFormatter.h */; };
-		00BB4DFB1B5AE75A0039D377 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804C1B2763120097D897 /* DDDispatchQueueLogFormatter.h */; };
-		00BB4DFC1B5AE75A0039D377 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804E1B2763120097D897 /* DDMultiFormatter.h */; };
-		00BB4DFD1B5AE75A0039D377 /* CocoaLumberJack.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480211B2762B90097D897 /* CocoaLumberJack.h */; };
+		00BB4DF11B5AE75A0039D377 /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480391B2763120097D897 /* CLIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DF21B5AE75A0039D377 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803B1B2763120097D897 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DF31B5AE75A0039D377 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803D1B2763120097D897 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DF41B5AE75A0039D377 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4803F1B2763120097D897 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DF51B5AE75A0039D377 /* DDAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480411B2763120097D897 /* DDAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DF61B5AE75A0039D377 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480421B2763120097D897 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DF71B5AE75A0039D377 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480441B2763120097D897 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DF81B5AE75A0039D377 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480461B2763120097D897 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DF91B5AE75A0039D377 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480471B2763120097D897 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DFA1B5AE75A0039D377 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804A1B2763120097D897 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DFB1B5AE75A0039D377 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804C1B2763120097D897 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DFC1B5AE75A0039D377 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B4804E1B2763120097D897 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00BB4DFD1B5AE75A0039D377 /* CocoaLumberJack.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B480211B2762B90097D897 /* CocoaLumberJack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -558,6 +558,7 @@
 				00BB4DE51B5AE7320039D377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
